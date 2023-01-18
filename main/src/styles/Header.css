@@ -1,0 +1,41 @@
+.p_search{
+    display: inline-flex;
+    margin-left: 4rem;
+    color:#ccc
+}
+.i_search {
+    background-color: transparent;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px
+}
+.i_search::placeholder {
+    color:#ccc;
+    font-size:12px !important;
+}
+.today-date {
+    text-align: center;
+    color:#ccc;
+    line-height: 1.5;
+    font-size: 12px;
+    border-left: 1px solid #627386;
+    border-right: 1px solid #627386;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:20px;
+    white-space: nowrap;
+}
+.drop {
+    display:flex;
+    color:#ccc;
+    font-size:13px;
+    
+}
+.drop_p {
+    padding:16px;
+    padding-top: 10px;
+}
+.btn  {
+    color:#ccc;
+    font-size: 14px;
+    margin-left: 12px;
+}

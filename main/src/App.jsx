@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./component/Header";
+import Patient from "one/App"
 
 import "./index.scss";
 
 const App = () => (
-  <div className="mt-10 text-3xl mx-auto max-w-6xl">
-    <div>Name: main</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Tailwind</div>
+  <div >
+    <Header/>
+    <div className="w-1/3 text-s">
+
+    {/* <Patient hello="hellllllll" /> */}
+    </div>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
