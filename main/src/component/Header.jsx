@@ -40,10 +40,10 @@ const Header = () => {
         </p>
       </div>
       <div className="drop">
-        <p className="drop_p">Worklist Queues</p>
-        <p className="drop_p">Manage</p>
-        <p className="drop_p">Admin</p>
-        <p className="drop_p">Links</p>
+        <p>Worklist Queues</p>
+        <p>Manage</p>
+        <p>Admin</p>
+        <p>Links</p>
       </div>
       <p className="today-date" style={{ paddingTop: "10px" }}>
         ds super

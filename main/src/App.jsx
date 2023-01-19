@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./component/Header";
 
-const Patient = React.lazy(() => import('one/Patient'));
+//const Patient = React.lazy(() => import('one/Patient'));
+const Search = React.lazy(() => import('one/Search'));
 // import Patient from "one/Patient"
 
 import "./index.scss";
@@ -28,12 +29,25 @@ const data = [{
 const App = () => (
   <div >
     <Header />
-    <div className="w-1/3 text-s">
+    <div className="w-screen" style={{display:'flex'}}>
+
+    
       <React.Suspense fallback={<div>loading...</div>}>
+    
+     {/* <Complete /> */}
+     <div className="w-1/5">
+
+     </div>
+    <div className="w-4/5">
+    
         <SafeComponent>
-          <Patient />
+        
+          {/* <Patient hello={{data:data}}/> */}
+          <Search/>
         </SafeComponent>
-      </React.Suspense>
+     
+    </div>
+    </React.Suspense>
     </div>
   </div>
 );

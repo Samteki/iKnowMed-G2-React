@@ -28,12 +28,11 @@
     display:flex;
     color:#ccc;
     font-size:13px;
+    gap:32px;
+    padding:10px
     
 }
-.drop_p {
-    padding:16px;
-    padding-top: 10px;
-}
+
 .btn  {
     color:#ccc;
     font-size: 14px;

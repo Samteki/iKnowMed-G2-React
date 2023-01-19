@@ -5,6 +5,7 @@ import PatientList from "./components/PatientList";
 
 
 import "./index.css";
+import SearchPatient from "./pages/SearchPatient";
 
 const data = [{
   name: "ss",
@@ -27,7 +28,8 @@ export default function App() {
   return (
     <div className="container">
       <SafeComponent>
-        <PatientList />
+        <PatientList hello={{data:data}}/>
+        <SearchPatient props={data}/>
       </SafeComponent>
     </div>
   )

@@ -10,7 +10,7 @@ export default function PatientList(props) {
                     <th>name</th>
                     <th>age</th>
                 </tr>
-                {props.hello.data.map((item,key)=>(
+                {props?.hello?.data.map((item,key)=>(
                     <tr key={key}>
                         <td>{item.name}</td>
                         <td>{item.age}</td>
