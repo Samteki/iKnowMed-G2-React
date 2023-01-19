@@ -45,7 +45,8 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-       "./App":"./src/App.jsx"
+      //  "./App":"./src/App.jsx",
+       "./Patient":"./src/components/PatientList.jsx"
       },
       shared: {
         ...deps,

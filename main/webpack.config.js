@@ -44,7 +44,7 @@ module.exports = {
       name: "main",
       filename: "remoteEntry.js",
       remotes: {
-        one:"patient@http://localhost:3001/remoteEntry.js"
+        one:"patient@http://localhost:3001/remoteEntry.js",
       },
       exposes: {},
       shared: {
